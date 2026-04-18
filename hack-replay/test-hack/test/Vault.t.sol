@@ -11,5 +11,8 @@ contract VaultHackReplay is Test {
         vault = new Vault();
     }
 
-    function testExploit() public {}
+    function testExploit() public {
+        // Your code here
+    
+    }
 }
