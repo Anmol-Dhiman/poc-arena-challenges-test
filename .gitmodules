@@ -1,0 +1,3 @@
+[submodule "hack-replay/test-new-hack/lib/forge-std"]
+	path = hack-replay/test-new-hack/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std

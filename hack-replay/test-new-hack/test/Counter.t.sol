@@ -2,13 +2,13 @@
 pragma solidity ^0.8.13;
 
 import {Test} from "forge-std/Test.sol";
-import {Vault} from "../src/Vault.sol";
+import {Counter} from "../src/Counter.sol";
 
-contract VaultHackReplay is Test {
-    Vault vault;
+contract CounterTest is Test {
+    Counter public counter;
 
     function setUp() public {
-        vault = new Vault();
+        counter = new Counter();
     }
 
     function testExploit() public {
