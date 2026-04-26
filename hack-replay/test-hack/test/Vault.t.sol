@@ -13,6 +13,6 @@ contract VaultHackReplay is Test {
 
     function testExploit() public {
         // Your code here
-    
+        vault.setNumber(43);
     }
 }
